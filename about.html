@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who We Are | Kickstart Digital</title>
+    <meta name="description" content="Learn more about Kickstart Digital — a premium digital growth agency focused on web design, strategy, search optimization, and marketing solutions.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="kd-about-page">
+    <!-- Header / Navigation -->
+    <header class="site-header scrolled" id="site-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                KICKSTART<span>DIGITAL</span>
+            </a>
+            
+            <nav class="main-navigation" id="main-navigation">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="why-us.html" class="nav-link">Why Us</a></li>
+                    <li><a href="process.html" class="nav-link">Process</a></li>
+                    <li><a href="about.html" class="nav-link active">About</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-cta">
+                <a href="contact.html" class="btn btn-primary btn-header">Get Started <span class="header-arrow">→</span></a>
+            </div>
+            
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Menu overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+        <nav class="mobile-navigation">
+            <ul>
+                <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+                <li><a href="services.html" class="mobile-nav-link">Services</a></li>
+                <li><a href="why-us.html" class="mobile-nav-link">Why Us</a></li>
+                <li><a href="process.html" class="mobile-nav-link">Process</a></li>
+                <li><a href="about.html" class="mobile-nav-link active">About</a></li>
+                <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+                <li><a href="contact.html" class="btn btn-primary btn-mobile-cta">Get Started</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main Content Container -->
+    <main>
+        <!-- Section 1: About Hero -->
+        <section class="kd-about-hero">
+            <div class="kd-about-hero-glow"></div>
+            <div class="kd-about-hero-container">
+                <div class="kd-about-hero-grid">
+                    <!-- Left: Content Copy -->
+                    <div class="kd-about-hero-content">
+                        <span class="kd-about-hero-eyebrow">WHO WE ARE</span>
+                        <h1 class="kd-about-hero-heading">
+                            Digital Purpose Built for <span class="gradient-highlight">Ambitious Brands.</span>
+                        </h1>
+                        <p class="kd-about-hero-support">
+                            We are a team of strategists, designers, and engineers dedicated to building clean, high-performance digital experiences that grow businesses.
+                        </p>
+                        <div class="kd-about-hero-actions">
+                            <a href="contact.html" class="btn-about-hero-primary">Start a Conversation <span class="cta-arrow">→</span></a>
+                            <a href="services.html" class="btn-about-hero-secondary">Our Services ↓</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Right: Abstract strategic SVG connection visual -->
+                    <div class="kd-about-hero-visual-wrapper kd-services-floating-wrapper" id="about-interactive-visual">
+                        <div class="kd-about-hero-visual kd-services-floating-inner">
+                            <!-- SVG decorative path networks -->
+                            <svg viewBox="0 0 400 400" fill="none" class="about-hero-svg">
+                                <circle cx="200" cy="200" r="120" stroke="rgba(91,92,240,0.03)" stroke-width="1.5"></circle>
+                                <circle cx="200" cy="200" r="70" stroke="rgba(91,92,240,0.02)" stroke-width="1.5" stroke-dasharray="4 4"></circle>
+                                <!-- Interactive node connection paths -->
+                                <path id="path-people" d="M100,100 L200,200" stroke="rgba(91,92,240,0.1)" stroke-width="1.5" stroke-dasharray="3 3"></path>
+                                <path id="path-strategy" d="M300,100 L200,200" stroke="rgba(91,92,240,0.1)" stroke-width="1.5"></path>
+                                <path id="path-design" d="M100,300 L200,200" stroke="rgba(91,92,240,0.1)" stroke-width="1.5"></path>
+                                <path id="path-tech" d="M300,300 L200,200" stroke="rgba(91,92,240,0.1)" stroke-width="1.5" stroke-dasharray="3 3"></path>
+                            </svg>
+
+                            <!-- Centre Node: Purpose -->
+                            <div class="about-purpose-centre">
+                                <span class="tag">PURPOSE</span>
+                            </div>
+
+                            <!-- Floating Editorial Layer 1: People (Top Left) -->
+                            <div class="about-editorial-layer layer-people" style="top: 40px; left: 40px;">
+                                <span class="lbl">PEOPLE</span>
+                                <div class="people-dots-connector">
+                                    <span class="dot"></span><span class="dot"></span>
+                                </div>
+                            </div>
+
+                            <!-- Floating Editorial Layer 2: Strategy (Top Right) -->
+                            <div class="floating-sub-panel layer-strategy" style="top: 70px; left: 240px;">
+                                <span class="tag">STRATEGY</span>
+                                <div class="strategy-path-preview"></div>
+                            </div>
+
+                            <!-- Floating Editorial Layer 3: Design (Bottom Left) -->
+                            <div class="about-editorial-layer layer-design" style="top: 240px; left: 30px;">
+                                <span class="lbl">DESIGN</span>
+                                <div class="crop-frame-preview"></div>
+                            </div>
+
+                            <!-- Floating Editorial Layer 4: Technology (Bottom Right) -->
+                            <div class="about-editorial-layer layer-tech" style="top: 260px; left: 230px;">
+                                <span class="lbl">TECH</span>
+                                <div class="terminal-block-preview"></div>
+                            </div>
+
+                            <!-- Floating Editorial Layer 5: Growth (Bottom Centre) -->
+                            <div class="about-editorial-layer layer-growth" style="top: 155px; left: 290px;">
+                                <span class="lbl">GROWTH</span>
+                                <div class="growth-arrow-preview">↑</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Who We Are -->
+        <section class="kd-about-intro">
+            <div class="kd-about-intro-container">
+                <span class="kd-about-intro-eyebrow">OUR VISION</span>
+                <h2 class="kd-about-intro-heading">We believe in digital work that has a clear reason to exist.</h2>
+                <div class="kd-about-intro-grid">
+                    <p class="intro-paragraph-main">
+                        Kickstart Digital was built on a simple premise: digital experiences should be clean, fast, and closely aligned with real business goals. We avoid the typical agency clutter and focus purely on what works.
+                    </p>
+                    <div class="intro-statement-card">
+                        <span class="intro-statement-tag">MISSION STATEMENT</span>
+                        <p class="intro-statement-text">"To help companies turn online attention into measurable progress."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: What We Believe -->
+        <section class="kd-about-beliefs">
+            <div class="kd-about-beliefs-container">
+                <h2 class="kd-about-beliefs-heading">What We Believe</h2>
+                
+                <div class="kd-about-beliefs-grid">
+                    <!-- Belief 1 -->
+                    <div class="kd-about-belief-card">
+                        <span class="num">01</span>
+                        <h3 class="title">Clarity Above All</h3>
+                        <p class="desc">
+                            Confusing jargon and over-engineered layouts only get in the way. We focus on clear communication and simple user paths.
+                        </p>
+                    </div>
+                    
+                    <!-- Belief 2 -->
+                    <div class="kd-about-belief-card">
+                        <span class="num">02</span>
+                        <h3 class="title">Quality in Detail</h3>
+                        <p class="desc">
+                            From accessibility and page performance to copywriting, we believe the details are what make an experience premium.
+                        </p>
+                    </div>
+                    
+                    <!-- Belief 3 -->
+                    <div class="kd-about-belief-card">
+                        <span class="num">03</span>
+                        <h3 class="title">True Collaboration</h3>
+                        <p class="desc">
+                            We don't work in isolation. We partner directly with your team to stay aligned and make practical, strategic progress.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Our Approach -->
+        <section class="kd-about-approach">
+            <div class="kd-about-approach-container">
+                <div class="kd-about-approach-grid">
+                    <div class="kd-about-approach-content">
+                        <span class="kd-about-approach-eyebrow">OUR STRATEGY</span>
+                        <h2 class="kd-about-approach-heading">Strategy First. Execution With Purpose.</h2>
+                        <p class="kd-about-approach-desc">
+                            A website or marketing campaign only works if it is connected to a business goal. We start by defining what success looks like, mapping out the roadmap, and building digital assets designed around it.
+                        </p>
+                    </div>
+                    <div class="kd-about-approach-visual-wrapper">
+                        <div class="kd-about-approach-panel">
+                            <div class="panel-row">
+                                <span class="num">01</span>
+                                <span class="text">Understand business goals</span>
+                            </div>
+                            <div class="panel-row">
+                                <span class="num">02</span>
+                                <span class="text">Identify real audience paths</span>
+                            </div>
+                            <div class="panel-row">
+                                <span class="num">03</span>
+                                <span class="text">Build clean, modern products</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: What We Bring to the Table -->
+        <section class="kd-about-strengths">
+            <div class="kd-about-strengths-container">
+                <h2 class="kd-about-strengths-heading">Our Strengths</h2>
+                
+                <div class="kd-about-strengths-grid">
+                    <!-- Strength 1 -->
+                    <div class="expect-item-card">
+                        <div class="meta">
+                            <span class="num">01</span>
+                            <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="title">Strategic Depth</h3>
+                        <p class="desc">We analyze market positioning, goals, and opportunities before we design or code.</p>
+                    </div>
+                    
+                    <!-- Strength 2 -->
+                    <div class="expect-item-card">
+                        <div class="meta">
+                            <span class="num">02</span>
+                            <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="title">Design Precision</h3>
+                        <p class="desc">We prioritize premium editorial interfaces, typography, clean margins, and clear contrast.</p>
+                    </div>
+                    
+                    <!-- Strength 3 -->
+                    <div class="expect-item-card">
+                        <div class="meta">
+                            <span class="num">03</span>
+                            <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="title">Engineering Excellence</h3>
+                        <p class="desc">We engineer high-performance frontend code that is responsive, accessible, and fast.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Our Working Style -->
+        <section class="kd-about-style">
+            <div class="kd-about-style-container">
+                <h2 class="kd-about-style-heading">Our Working Style</h2>
+                
+                <div class="kd-about-style-grid">
+                    <div class="kd-about-style-item">
+                        <span class="num">01</span>
+                        <h3 class="title">Focused Communication</h3>
+                        <p class="desc">Weekly updates, zero fluff, and direct access to the team working on your project.</p>
+                    </div>
+                    <div class="kd-about-style-item">
+                        <span class="num">02</span>
+                        <h3 class="title">Practical Momentum</h3>
+                        <p class="desc">We focus on building and shipping high-value features rather than endless scoping loops.</p>
+                    </div>
+                    <div class="kd-about-style-item">
+                        <span class="num">03</span>
+                        <h3 class="title">Continuous Progress</h3>
+                        <p class="desc">Once launch is complete, we help analyze audience interactions to guide the next growth phase.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7: Client Experience -->
+        <section class="kd-about-ux">
+            <div class="kd-about-ux-container">
+                <h2 class="kd-about-ux-heading">What You Can Expect</h2>
+                
+                <div class="kd-about-ux-list">
+                    <div class="kd-about-ux-item">
+                        <div class="item-meta">
+                            <div class="check-icon-box">✓</div>
+                            <h3 class="title">A Transparent Partnership</h3>
+                        </div>
+                        <p class="desc">No hidden fees, realistic deadlines, and open communication channels from day one.</p>
+                    </div>
+                    <div class="kd-about-ux-item">
+                        <div class="item-meta">
+                            <div class="check-icon-box">✓</div>
+                            <h3 class="title">Premium Deliverables</h3>
+                        </div>
+                        <p class="desc">Every layout, system setup, or copy block is designed to reflect brand authority.</p>
+                    </div>
+                    <div class="kd-about-ux-item">
+                        <div class="item-meta">
+                            <div class="check-icon-box">✓</div>
+                            <h3 class="title">Ongoing Growth Support</h3>
+                        </div>
+                        <p class="desc">Strategic optimization recommendations built around analytics data to secure organic performance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 8: Digital Should Feel Human -->
+        <section class="kd-about-human">
+            <div class="kd-about-human-container">
+                <div class="kd-about-human-grid">
+                    <h2 class="kd-about-human-heading">Digital Should Feel Human.</h2>
+                    <p class="kd-about-human-desc">
+                        Behind every click, conversion, or page view is a real person trying to solve a problem. That's why we build digital products with empathy, focusing on accessible layout models, comfortable reading scales, and warm interactions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 9: Short CTA -->
+        <section class="kd-about-cta">
+            <div class="kd-about-cta-container">
+                <div class="kd-about-cta-panel">
+                    <h2 class="kd-about-cta-heading">Ready to Take the Next Step?</h2>
+                    <p class="kd-about-cta-support">Tell us what you're trying to achieve, and we'll help you chart the right digital course.</p>
+                    <div class="kd-about-cta-actions">
+                        <a href="contact.html" class="btn-about-cta">Start a Conversation <span class="cta-arrow">→</span></a>
+                    </div>
+                    <p class="kd-about-cta-footer-caption">No complicated process. Just a focused conversation.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="kd-premium-footer">
+        <div class="kd-footer-container">
+            <div class="kd-footer-watermark">KD</div>
+            <div class="kd-footer-main">
+                <div class="kd-footer-column kd-footer-brand">
+                    <h3 class="kd-footer-logo">
+                        <span class="logo-white">KICKSTART</span> <span class="logo-violet">DIGITAL</span>
+                    </h3>
+                    <p class="kd-footer-brand-desc">Digital experiences, strategy and growth built to help ambitious businesses move forward.</p>
+                    <p class="kd-footer-brand-tagline">Built for growth. Designed for impact.</p>
+                </div>
+                <div class="kd-footer-column">
+                    <h3 class="kd-footer-heading"><span class="heading-dot">•</span> EXPLORE</h3>
+                    <nav class="kd-footer-nav" aria-label="Footer Explore Navigation">
+                        <ul class="kd-footer-links">
+                            <li><a href="index.html" class="kd-footer-link">Home</a></li>
+                            <li><a href="services.html" class="kd-footer-link">Services</a></li>
+                            <li><a href="why-us.html" class="kd-footer-link">Why Us</a></li>
+                            <li><a href="process.html" class="kd-footer-link">Process</a></li>
+                            <li><a href="about.html" class="kd-footer-link">About</a></li>
+                            <li><a href="contact.html" class="kd-footer-link">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="kd-footer-column">
+                    <h3 class="kd-footer-heading"><span class="heading-dot">•</span> SERVICES</h3>
+                    <nav class="kd-footer-nav" aria-label="Footer Services Navigation">
+                        <ul class="kd-footer-links">
+                            <li><a href="services.html" class="kd-footer-link">Web Design & Development</a></li>
+                            <li><a href="services.html" class="kd-footer-link">SEO & Organic Growth</a></li>
+                            <li><a href="services.html" class="kd-footer-link">Paid Advertising</a></li>
+                            <li><a href="services.html" class="kd-footer-link">Digital Strategy</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="kd-footer-column">
+                    <h3 class="kd-footer-heading"><span class="heading-dot">•</span> LET'S CONNECT</h3>
+                    <p class="kd-footer-connect-desc">Have a project, idea or growth challenge? We'd love to hear what you're working on.</p>
+                    <a href="contact.html" class="kd-footer-connect-cta">Start a Conversation →</a>
+                    <div class="kd-footer-status">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Available for new projects</span>
+                    </div>
+                    <div class="kd-footer-socials">
+                        <a href="#" class="kd-footer-social-link">LinkedIn</a>
+                        <a href="#" class="kd-footer-social-link">Instagram</a>
+                        <a href="#" class="kd-footer-social-link">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="kd-footer-divider"></div>
+            <div class="kd-footer-bottom">
+                <div class="kd-footer-copyright">
+                    <p>© 2026 Kickstart Digital. All rights reserved.</p>
+                </div>
+                <div class="kd-footer-legal">
+                    <a href="privacy-policy.html" class="kd-footer-legal-link">Privacy Policy</a>
+                    <a href="terms-and-conditions.html" class="kd-footer-legal-link">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
